@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharePoint Schema Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto max-w-4xl bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-center text-2xl font-bold text-gray-700 mb-6">SharePoint Schema Visualization</h1>
+
+        <div class="schema-container text-center overflow-auto mb-6">
+            <!-- <img src="{{ url_for('view_schema') }}" alt="Database Schema"> -->
+            <img src="{{ url_for('static', filename='images/uml_graph.png') }}" alt="UML Graph" class="mx-auto border border-gray-300 rounded-lg">
+        </div>
+
+        <div class="text-center mb-6">
+            <a href="{{ url_for('download_file', filename='uml_graph.png') }}" class="text-blue-600 hover:text-blue-800 underline">Download UML Graph</a>
+        </div>
+
+        <div class="text-center">
+            <a href="{{ url_for('index') }}" class="inline-block bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600">Back to Form</a>
+        </div>
+    </div>
+</body>
+</html>
