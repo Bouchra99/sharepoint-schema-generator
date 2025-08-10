@@ -21,6 +21,10 @@ uv add requests graphiz
 ### ⚙️ Installing Graphviz
 1. Download and install Graphviz https://graphviz.gitlab.io/download/
 2. make Graphviz available to Python by setting the PATH.
+3. If you're unable to modify environment variables permanently, you can use Graphviz in your current PowerShell session by running:
+```
+$env:PATH += ";C:\path_to_graphviz_bin"
+```
 
 ### 🚀 Usage
 Run from the console : 
