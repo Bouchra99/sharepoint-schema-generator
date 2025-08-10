@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 os.makedirs('graph', exist_ok=True)
 
-LISTS_TO_IGNORE = ["Documents", "Liens de partage", "Extensions de modèle web", "User"]
+LISTS_TO_IGNORE = ["Documents", "Liens de partage", "Extensions de modèle web", "User", "Web Template Extensions"]
 COLUMNS_TO_IGNORE = [
     "_ColorTag", "ComplianceAssetId", "_UIVersionString", "Attachments",
     "Edit", "LinkTitleNoMenu", "LinkTitle", "DocIcon", "ItemChildCount",
