@@ -25,6 +25,10 @@ uv add requests graphiz
 ```
 $env:PATH += ";C:\path_to_graphviz_bin"
 ```
+or from Windows command prompt ( cmd. exe ) : 
+```
+set PATH=%PATH%;C:\path_to_graphviz_bin
+```
 
 ### 🚀 Usage
 Run from the console : 
